@@ -41,7 +41,7 @@ function dd () {
 			clearInterval(ee)
 		}
 	}
-	if (la <= 0) {
+	if (la <= 0 && la > -5) {
 		u+=1
 		sco.textContent =`score : ${u}`
 		if ( u > parseInt(window.localStorage.scor) ) {
